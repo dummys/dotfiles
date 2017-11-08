@@ -1,0 +1,9 @@
+[user]
+    email = dummys1337@gmail.com
+    name = dummys
+
+[push]
+        default = simple
+[color]
+
+    ui = auto

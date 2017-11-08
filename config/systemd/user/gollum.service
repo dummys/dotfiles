@@ -1,0 +1,11 @@
+[Unit]
+Description=Gollum wiki server  
+After=network.target
+
+[Service]
+Type=simple  
+ExecStart=/home/dummys/.gem/ruby/2.4.0/bin/gollum --js --css --show-all --live-preview --allow-uploads dir --h1-title "/home/dummys/SpiderOak Hive/gollum"  
+Restart=on-abort
+
+[Install]
+WantedBy=default.target  

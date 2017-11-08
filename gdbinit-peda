@@ -1,0 +1,3 @@
+source /usr/share/peda/peda.py
+source /home/dummys/works/codz/python/gdb/dps_like_for_gdb.py
+

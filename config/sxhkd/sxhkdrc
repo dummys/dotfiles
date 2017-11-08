@@ -1,0 +1,14 @@
+XF86AudioRaiseVolume                                                                                       
+    amixer sset Master playback 5%+                                              
+                                                                                  
+XF86AudioLowerVolume                                                             
+    amixer sset Master playback 5%-                                              
+                                                                                 
+XF86AudioMute                                                                    
+    amixer sset Master toggle                                                    
+                                                                                    
+XF86MonBrightnessDown                                                            
+    xbacklight -dec 1                                                            
+                                                                                 
+XF86MonBrightnessUp                                                              
+    xbacklight -inc 1                                                                                  

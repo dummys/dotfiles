@@ -1,0 +1,77 @@
+- clean: ['~']
+
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.gdbinit: gdbinit
+    ~/.gdbinit-gef: gdbinit-gef
+    ~/.gdbinit-peda: gdbinit-peda
+    ~/.gnupg/gpg-agent.conf:
+        path: gnupg/gpg-agent.conf
+        create: true
+    ~/.gnupg/gpg.conf:
+        path: gnupg/gpg.conf
+        create: true
+    ~/.gnupg/dirmngr.conf:
+        path: gnupg/dirmngr.conf
+        create: true
+    ~/.gitconfig: gitconfig
+    ~/.idapro/avr.cfg:
+        path: idapro/avr.cfg
+        create: true
+    ~/.idapro/gdb_arch.cfg:
+        path: idapro/gdb_arch.cfg
+        create: true
+    ~/.idapro/idauser.cfg:
+        path: idapro/idauser.cfg
+        create: true
+    ~/.idapro/ida.reg:
+        path: idapro/ida.reg
+        create: true
+    ~/.ncmpcpp/config:
+        path: ncmpcpp/config
+        create: true
+    ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
+        path: oh-my-zsh/themes/mattoufoutu.zsh-theme
+        create: true
+    ~/.vimrc: vimrc
+    ~/.zshenv: zshenv
+    ~/.zshrc: zshrc
+    ~/.Xresources: Xresources
+    ~/.Xresources_4k: Xresources_4k
+    ~/.Xresources_external: Xresources_external
+    ~/.config/awesome:
+        path: config/awesome/
+        create: true
+    ~/.config/color:
+        path: config/color/
+        create: true
+    ~/.config/cower:
+        path: config/cower/
+        create: true
+    ~/.config/lxterminal:
+        path: config/lxterminal/
+        create: true
+    ~/.config/mimeapps.list:
+        path: config/mimeapps.list
+        create: true
+    ~/.config/mpd/mpd.conf:
+        path: config/mpd/mpd.conf
+        create: true
+    ~/.config/mpd/playlists:
+        path: config/mpd/playlists/
+        create: true
+    ~/.config/mpv:
+        path: config/mpv/
+        create: true
+    ~/.config/ranger:
+        path: config/ranger/
+        create: true
+    ~/.config/sxhkd:
+        path: config/sxhkd/
+        create: true
+    ~/.config/systemd/user/gollum.service:
+        path: config/systemd/user/gollum.service
+        create: true
+
+
