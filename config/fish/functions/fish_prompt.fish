@@ -6,6 +6,9 @@ set mtx (set_color 4CFF00)
 set red (set_color red)
 set gray (set_color -o black)
 
+
+set -U fish_prompt_pwd_dir_length 0
+
 # Fish git prompt
 set __fish_git_prompt_showdirtystate 'yes'
 set __fish_git_prompt_showstashstate 'yes'
