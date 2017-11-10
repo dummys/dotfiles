@@ -1,0 +1,3 @@
+function view
+	geeqie
+end

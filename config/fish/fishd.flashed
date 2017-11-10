@@ -32,3 +32,4 @@ SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SET fish_prompt_pwd_dir_length:0
+SET fish_user_abbreviations:mountu\x20sudo\x20mount\x20\x2do\x20gid\x3ddummys\x2cfmask\x3d113\x2cdmask\x3d002

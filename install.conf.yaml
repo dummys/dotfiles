@@ -61,6 +61,10 @@
     ~/.config/mpd/playlists:
         path: config/mpd/playlists/
         create: true
+
+    ~/.config/fish:
+        path: config/fish/
+        create: true
     ~/.config/mpv:
         path: config/mpv/
         create: true

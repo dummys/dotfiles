@@ -15,8 +15,8 @@ URxvt*.internalBorder:       3
 URxvt*.lineSpace:            0
 
 URxvt*.allow_bold:           true
-URxvt*.font:                 xft:Source Code Pro:pixelsize=30
-URxvt*.boldFont:             xft:Source Code Pro Semibold:pixelsize=30
+URxvt*.font:                 xft:Source Code Pro:pixelsize=35
+URxvt*.boldFont:             xft:Source Code Pro Semibold:pixelsize=35
 
 ! Fix font space
 URxvt*.letterSpace: 			-1
