@@ -1,5 +1,6 @@
 configuration {
 
 font: "Source Code Pro Light 40";
+lines: 5;
 
 }
