@@ -3,9 +3,6 @@
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
-    ~/.gdbinit: gdbinit
-    ~/.gdbinit-gef: gdbinit-gef
-    ~/.gdbinit-peda: gdbinit-peda
     ~/.gnupg/gpg-agent.conf:
         path: gnupg/gpg-agent.conf
         create: true
@@ -15,7 +12,6 @@
     ~/.gnupg/dirmngr.conf:
         path: gnupg/dirmngr.conf
         create: true
-    ~/.gitconfig: gitconfig
     ~/.idapro/avr.cfg:
         path: idapro/avr.cfg
         create: true
@@ -34,20 +30,13 @@
     ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
         path: oh-my-zsh/themes/mattoufoutu.zsh-theme
         create: true
-    ~/.vimrc: vimrc
     ~/.zshenv: zshenv
     ~/.zshrc: zshrc
-    ~/.Xresources: Xresources
-    ~/.Xresources_4k: Xresources_4k
-    ~/.Xresources_external: Xresources_external
     ~/.config/awesome:
         path: config/awesome/
         create: true
     ~/.config/color:
         path: config/color/
-        create: true
-    ~/.config/cower:
-        path: config/cower/
         create: true
     ~/.config/lxterminal:
         path: config/lxterminal/
@@ -74,11 +63,7 @@
     ~/.config/sxhkd:
         path: config/sxhkd/
         create: true
-    ~/.config/systemd/user/gollum.service:
-        path: config/systemd/user/gollum.service
-        create: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-
 
