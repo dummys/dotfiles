@@ -1,6 +1,0 @@
-search test
-shell
-shell echo "lol"
-shell aa
-rename
-rename pwntool_arm_execve_remote.py
