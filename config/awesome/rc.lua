@@ -226,7 +226,12 @@ root.buttons(awful.util.table.join(
 
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
+
     -- Take a screenshot
+    -- https://github.com/copycat-killer/dots/blob/master/bin/screenshot
+    awful.key({ altkey, "Control" }, "p", function() os.execute("maim ~/screenshots/$(date +%F-%T).png") end),
+
+    -- Take a screenshot with selection
     -- https://github.com/copycat-killer/dots/blob/master/bin/screenshot
     awful.key({ altkey }, "p", function() os.execute("maim --select ~/screenshots/$(date +%F-%T).png") end),
 

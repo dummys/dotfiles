@@ -1,3 +1,8 @@
+
+
+#for changing the color of world writable file
+set -x LS_COLORS $LS_COLORS:'ow=30;106:'
+
 # for autojump
 begin
     set --local AUTOJUMP_PATH $HOME/.config/fish/autojump.fish

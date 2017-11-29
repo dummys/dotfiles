@@ -1,3 +1,3 @@
 function pdf
-	zahtura
+	zathura 
 end
