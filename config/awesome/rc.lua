@@ -270,16 +270,22 @@ globalkeys = awful.util.table.join(
     ),
 
     -- True alt tabing
-    awful.key({ "Mod1", }, "Tab",
-        function ()
-            switcher.switch(1, "Alt_L", "Tab", "ISO_Left_Tab")
-        end
-   ),
-    awful.key({ "Mod1", "Shift" }, "Tab",
-        function ()
-            switcher.switch(-1, "Alt_L", "Tab", "ISO_Left_Tab")
-        end
-    ),
+
+
+    awful.key({ altkey }, "Tab", function() os.execute("rofi -show window") end),
+
+
+
+   -- awful.key({ "Mod1", }, "Tab",
+   --     function ()
+   --         switcher.switch(1, "Alt_L", "Tab", "ISO_Left_Tab")
+   --     end
+   --),
+   -- awful.key({ "Mod1", "Shift" }, "Tab",
+   --     function ()
+   --         switcher.switch(-1, "Alt_L", "Tab", "ISO_Left_Tab")
+   --     end
+   -- ),
 
     -- By direction client focus
     awful.key({ altkey }, "Down",
