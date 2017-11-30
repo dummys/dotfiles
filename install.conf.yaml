@@ -42,14 +42,8 @@
         create: true
     ~/.zshenv: zshenv
     ~/.zshrc: zshrc
-    ~/.config/awesome:
-        path: config/awesome/
-        create: true
-    ~/.config/color:
-        path: config/color/
-        create: true
-    ~/.config/lxterminal:
-        path: config/lxterminal/
+    ~/.config/lxterminal/lxterminal.conf:
+        path: config/lxterminal/lxterminal.conf
         create: true
     ~/.config/mimeapps.list:
         path: config/mimeapps.list
@@ -60,11 +54,17 @@
     ~/.config/mpd/playlists:
         path: config/mpd/playlists/
         create: true
-    ~/.config/fish:
-        path: config/fish/
+    ~/.config/fish/autojump.fish:
+        path: config/fish/autojump.fish
         create: true
-    ~/.config/mpv:
-        path: config/mpv/
+    ~/.config/fish/config.fish:
+        path: config/fish/config.fish
+        create: true
+    ~/.config/fish/functions:
+        path: config/fish/functions
+        create: true
+    ~/.config/mpv/mpv.conf:
+        path: config/mpv/mpv.conf
         create: true
     ~/.config/ranger/rc.conf:
         path: config/ranger/rc.conf
