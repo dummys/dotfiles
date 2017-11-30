@@ -66,11 +66,11 @@
     ~/.config/mpv:
         path: config/mpv/
         create: true
-    ~/.config/ranger:
-        path: config/ranger/
+    ~/.config/ranger/rc.conf:
+        path: config/ranger/rc.conf
         create: true
-    ~/.config/sxhkd:
-        path: config/sxhkd/
+    ~/.config/sxhkd/sxhkdrc:
+        path: config/sxhkd/sxhkdrc
         create: true
 
 - shell:
