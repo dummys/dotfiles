@@ -69,9 +69,6 @@
     ~/.config/ranger/rc.conf:
         path: config/ranger/rc.conf
         create: true
-    ~/.config/sxhkd/sxhkdrc:
-        path: config/sxhkd/sxhkdrc
-        create: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
