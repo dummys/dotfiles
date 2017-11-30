@@ -7,6 +7,9 @@
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
+    ~/.config/qutebrowser/config.py:
+        path: config/qutebrowser/config.py
+        create: true
     ~/.gnupg/gpg-agent.conf:
         path: gnupg/gpg-agent.conf
         create: true
@@ -54,7 +57,6 @@
     ~/.config/mpd/playlists:
         path: config/mpd/playlists/
         create: true
-
     ~/.config/fish:
         path: config/fish/
         create: true
