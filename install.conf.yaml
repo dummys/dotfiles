@@ -10,8 +10,8 @@
     ~/.config/rofi/config.rasi:
         path: config/rofi/config.rasi
         create: true
-    ~/.config/qutebrowser/userscripts/qute-pass:
-        path: config/qutebrowser/userscripts/qute-pass
+    ~/.local/share/qutebrowser/userscripts/qute-pass:
+        path: local/share/qutebrowser/userscripts/qute-pass
         create: true
     ~/.gnupg/gpg-agent.conf:
         path: gnupg/gpg-agent.conf
