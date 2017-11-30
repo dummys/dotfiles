@@ -10,15 +10,38 @@
 # Type: Bool
 c.auto_save.session = True
 
-# Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
-# for a blank page.
+# Font used in the tab bar.
+# Type: QtFont
+c.fonts.tabs = '20pt source code pro light'
+
+# Automatically enter insert mode if an editable element is focused
+# after loading the page.
+# Type: Bool
+c.input.insert_mode.auto_load = True
+
+# The position of the tab bar.
+# Type: Position
+# Valid values:
+#   - top
+#   - bottom
+#   - left
+#   - right
+c.tabs.position = 'top'
+
+# The width of the tab bar if it's vertical, in px or as percentage of
+# the window.
+# Type: PercOrInt
+c.tabs.width.bar = '60%'
+
+# The page to open if :open -t/-b/-w is used without URL. Use
+# `about:blank` for a blank page.
 # Type: FuzzyUrl
 c.url.default_page = 'www.google.ch'
 
-# Search engines which can be used via the address bar. Maps a search
-# engine name (such as `DEFAULT`, or `ddg`) to a URL with a `{}`
-# placeholder. The placeholder will be replaced by the search term, use
-# `{{` and `}}` for literal `{`/`}` signs. The search engine named
+# Definitions of search engines which can be used via the address bar.
+# Maps a searchengine name (such as `DEFAULT`, or `ddg`) to a URL with a
+# `{}` placeholder. The placeholder will be replaced by the search term,
+# use `{{` and `}}` for literal `{`/`}` signs. The searchengine named
 # `DEFAULT` is used when `url.auto_search` is turned on and something
 # else than a URL was entered to be opened. Other search engines can be
 # used by prepending the search engine name to the search term, e.g.
@@ -26,7 +49,7 @@ c.url.default_page = 'www.google.ch'
 # Type: Dict
 c.url.searchengines = {'DEFAULT': 'https://www.google.ch/search?hl=fr&q={}'}
 
-# Page(s) to open at the start.
+# The page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
 c.url.start_pages = 'https://www.google.ch'
 
