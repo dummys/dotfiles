@@ -17,6 +17,7 @@ end
 
 # for gpg
 gpg-connect-agent updatestartuptty /bye >/dev/null
+set -x SSH_AUTH_SOCK /run/user/1000/gnupg/S.gpg-agent.ssh
 
 
 # for virtualenv aka virtualfish
