@@ -7,6 +7,9 @@
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
+    ~/.config/rofi/config.rasi:
+        path: config/rofi/config.rasi
+        create: true
     ~/.config/qutebrowser/config.py:
         path: config/qutebrowser/config.py
         create: true
