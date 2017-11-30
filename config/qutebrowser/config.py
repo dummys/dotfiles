@@ -64,5 +64,3 @@ config.bind('H', 'back')
 config.bind('backspace', 'back')
 
 # Bindings for command mode
-config.bind('<down>', 'completion-item-focus next', mode='command')
-config.bind('<up>', 'completion-item-focus prev', mode='command')
