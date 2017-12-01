@@ -54,6 +54,9 @@
     ~/.config/fish/autojump.fish:
         path: config/fish/autojump.fish
         create: true
+    ~/.config/fish/completions/gopass.fish:
+        path: config/fish/completions/gopass.fish
+        create: true
     ~/.config/fish/config.fish:
         path: config/fish/config.fish
         create: true
