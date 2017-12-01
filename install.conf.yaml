@@ -45,6 +45,9 @@
     ~/.config/lxterminal/lxterminal.conf:
         path: config/lxterminal/lxterminal.conf
         create: true
+    ~/.ncmcpp/config:
+        path: ncmcpp/config
+        create: true
     ~/.config/mpd/mpd.conf:
         path: config/mpd/mpd.conf
         create: true

@@ -1,4 +1,6 @@
 mpd_host = "localhost"
 mpd_port = "6600"
 mpd_music_dir = "~/music"
-song_status_format = "{(%l) }{a - }{%t}|{%f}" 
+#song_list_format = "{$3[%l]$9} {$5%a$9} {$6%t$9} %y %r %n {$5%b$9}"
+song_status_format = "{(%l) }{%a - }{%t}|{%f}"
+
