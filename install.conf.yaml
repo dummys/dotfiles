@@ -34,7 +34,7 @@
     ~/.idapro/ida.reg:
         path: idapro/ida.reg
         create: true
-    ~/.ncmpcpp/config:
+    ~/.ncmcpp/config:
         path: ncmpcpp/config
         create: true
     ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
