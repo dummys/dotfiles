@@ -34,9 +34,6 @@
     ~/.idapro/ida.reg:
         path: idapro/ida.reg
         create: true
-    ~/.ncmcpp/config:
-        path: ncmpcpp/config
-        create: true
     ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
         path: oh-my-zsh/themes/mattoufoutu.zsh-theme
         create: true
@@ -45,8 +42,8 @@
     ~/.config/lxterminal/lxterminal.conf:
         path: config/lxterminal/lxterminal.conf
         create: true
-    ~/.ncmcpp/config:
-        path: ncmcpp/config
+    ~/.ncmpcpp/config:
+        path: ncmpcpp/config
         create: true
     ~/.config/mpd/mpd.conf:
         path: config/mpd/mpd.conf
