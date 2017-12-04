@@ -31,9 +31,17 @@
     ~/.idapro/idauser.cfg:
         path: idapro/idauser.cfg
         create: true
-    ~/.idapro/ida.reg:
-        path: idapro/ida.reg
+    ~/.idapro/jon-ida-color-theme.clr:
+        path: idapro/jon-ida-color-theme.clr
         create: true
+    ~/.idapro/plugins/findcrypt3.py:
+        path: idapro/plugins/findcrypt3.py
+        create: true
+    ~/.idapro/plugins/findcrypt3.rules: idapro/plugins/findcrypt3.rules
+    ~/.idapro/plugins/keypatch.py: idapro/plugins/keypatch.py
+    ~/.idapro/plugins/fluorescence.py: idapro/plugins/fluorescence.py
+    ~/.idapro/plugins/ipyida_plugin_stub.py: idapro/plugins/ipyida_plugin_stub.py
+    ~/.idapro/plugins/ipyida: idapro/plugins/ipyida
     ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
         path: oh-my-zsh/themes/mattoufoutu.zsh-theme
         create: true
