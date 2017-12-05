@@ -1,4 +1,6 @@
 
+" grabbed from: https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+
 " Start of Vundle configuration
 
 set shell=/bin/bash " required for fish shell
