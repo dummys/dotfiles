@@ -5,6 +5,8 @@
 - clean: ['~']
 
 - link:
+
+    ~/.vimrc: vimrc
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.config/rofi/config.rasi:
