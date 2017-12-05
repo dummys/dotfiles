@@ -1,3 +1,3 @@
 function pdf
-	zathura 
+	zathura $argv
 end

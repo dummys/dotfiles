@@ -1,3 +1,3 @@
 function view
-	geeqie
+	geeqie $argv
 end
