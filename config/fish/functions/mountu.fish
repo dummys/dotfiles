@@ -1,1 +1,1 @@
-/home/mofo/works/dotfiles/dotfiles-local/config/fish/functions/mountu.fish
+/home/dummys/works/dotfiles/dotfiles-local/config/fish/functions/mountu.fish
