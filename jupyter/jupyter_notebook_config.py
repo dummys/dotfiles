@@ -1,26 +1,3 @@
-# Configuration file for jupyter-notebook.
-
-#------------------------------------------------------------------------------
-# Application(SingletonConfigurable) configuration
-#------------------------------------------------------------------------------
-
-## This is an application.
-
-## The date format used by logging formatters for %(asctime)s
-#c.Application.log_datefmt = '%Y-%m-%d %H:%M:%S'
-
-## The Logging format template
-#c.Application.log_format = '[%(name)s]%(highlevel)s %(message)s'
-
-## Set the log level by value or name.
-#c.Application.log_level = 30
-
-#------------------------------------------------------------------------------
-# JupyterApp(Application) configuration
-#------------------------------------------------------------------------------
-
-## Base class for Jupyter applications
-
 ## Answer yes to any prompts.
 #c.JupyterApp.answer_yes = False
 
@@ -73,7 +50,7 @@
 #  If not specified, the default browser will be determined by the `webbrowser`
 #  standard library module, which allows setting of the BROWSER environment
 #  variable to override it.
-#c.NotebookApp.browser = ''
+c.NotebookApp.browser = 'qutebrowser'
 
 ## The full path to an SSL/TLS certificate file.
 #c.NotebookApp.certfile = ''
