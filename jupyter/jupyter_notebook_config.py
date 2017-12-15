@@ -50,7 +50,7 @@
 #  If not specified, the default browser will be determined by the `webbrowser`
 #  standard library module, which allows setting of the BROWSER environment
 #  variable to override it.
-c.NotebookApp.browser = 'qutebrowser'
+c.NotebookApp.browser = 'chromium --user-data-dir=/tmp %s'
 
 ## The full path to an SSL/TLS certificate file.
 #c.NotebookApp.certfile = ''
