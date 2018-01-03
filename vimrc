@@ -1,5 +1,6 @@
 
 " grabbed from: https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+" dont forget to install vim-youcompleteme-git from aur-repo
 
 " Start of Vundle configuration
 

@@ -5,7 +5,6 @@
 - clean: ['~']
 
 - link:
-
     ~/.vimrc: vimrc
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
@@ -42,8 +41,7 @@
     ~/.idapro/plugins/findcrypt3.rules: idapro/plugins/findcrypt3.rules
     ~/.idapro/plugins/keypatch.py: idapro/plugins/keypatch.py
     ~/.idapro/plugins/fluorescence.py: idapro/plugins/fluorescence.py
-    ~/.idapro/plugins/ipyida_plugin_stub.py: idapro/plugins/ipyida_plugin_stub.py
-    ~/.idapro/plugins/ipyida: idapro/plugins/ipyida
+    ~/.idapro/plugins/ida_ipython.py: idapro/plugins/ida_ipython.py
     ~/.oh-my-zsh/themes/mattoufoutu.zsh-theme:
         path: oh-my-zsh/themes/mattoufoutu.zsh-theme
         create: true
@@ -75,6 +73,9 @@
         create: true
     ~/.config/mpv/mpv.conf:
         path: config/mpv/mpv.conf
+        create: true
+    ~/.jupyter/jupyter_notebook_config.py:
+        path: jupyter/jupyter_notebook_config.py
         create: true
     ~/.config/ranger/rc.conf:
         path: config/ranger/rc.conf
