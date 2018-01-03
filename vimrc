@@ -33,11 +33,8 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 
 " ColorScheme
-
 Plugin 'joedicastro/vim-molokai256'
 
-" Plugin 'jnurmine/Zenburn'
-" Plugin 'altercation/vim-colors-solarized'
 
 " Proper tree for file browsing
 Plugin 'scrooloose/nerdtree'
@@ -90,6 +87,10 @@ set backspace=indent,eol,start
 
 "Folding based on indentation:
 autocmd FileType python set foldmethod=indent
+
+"Set all fold using F2
+nnoremap <expr> <f2> &foldlevel ? 'zM' :'zR'
+
 "use space to open folds
 nnoremap <space> za 
 "----------Stop python PEP 8 stuff--------------
