@@ -27,3 +27,5 @@ eval (python -m virtualfish compat_aliases auto_activation)
 set -x WORKON_HOME ~/.virtualenvs
 mkdir -p $WORKON_HOME
 
+# run the local config script
+local
