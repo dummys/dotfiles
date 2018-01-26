@@ -126,8 +126,11 @@ set encoding=utf-8
 " js html and so on
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
-" yaml indentation
-" autodetected
+" yaml indentation for ansible
+" already done
+" yaml indent for *.yml
+au BufRead,BufNewFile *.yml set filetype=ansible
+
 
 " Set colorScheme base on VIM mode
 colorscheme molokai256
